@@ -3,7 +3,7 @@
 A Game build on Python where Human fight aganist the Computer
 
 
-#Things Required
+# Things Required
 
 1. Complete Raspberry Pi Setup
 2. Camera
