@@ -120,7 +120,7 @@ while True:
         cv2.imwrite(img_name, frame)
         print("{} Saved!".format(img_name))
         # Run photo through Lobe TF model
-        ml_result = model.predict_from_file('C:\\Users\\Balaji\\Documents\\GitHub\\stonepaperpi\\Windows\\main\\StonePapaerPiv2.png')
+        ml_result = model.predict_from_file('E:\\GitHub\\stonepaperpi\\Windows\\main\\StonePapaerPiv2.png')
         # --> Change image path
         ml_predict(ml_result.prediction)
         # Pulse status light
